@@ -8,6 +8,7 @@ from home.models import CustomText, HomePage
 def home(request):
     packages = [
 	{'name':'Misago', 'url': 'http://pypi.python.org/pypi/Misago/0.14.0'},
+	{'name':'Misago', 'url': 'http://pypi.python.org/pypi/Misago/0.14.0'},
 	{'name':'django-analytical', 'url': 'http://pypi.python.org/pypi/django-analytical/2.4.0'},
 	{'name':'django-analytical', 'url': 'http://pypi.python.org/pypi/django-analytical/2.4.0'},
     ]
